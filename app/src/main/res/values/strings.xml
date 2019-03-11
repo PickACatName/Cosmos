@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">美妍</string>
+    <string name="app_introduce">为美而生</string>
+    <string name="share">分享</string>
+    <string name="share_from">来自「JapLearning」的分享:</string>
+    <string name="about_version">版本：1.0</string>
+    <string name="lock_user_info">编辑资料</string>
+    <string name="feed_back">意见反馈</string>
+    <string name="email">1057809324@qq.com</string>
+    <string name="about_app">关于App</string>
+    <string name="exit_app">退出登陆</string>
+    <string name="address">上海市普陀区中山北路3663号华东师范大学</string>
+
+    <string name="hint_login_username">请输入账号</string>
+    <string name="hint_login_password">请输入密码</string>
+    <string name="hint_login_phone">请输入手机号</string>
+    <string name="hint_login_nick_name">请输入昵称</string>
+    <string name="hint_return_login">返回登录界面</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="login_forget_pwd">忘记密码</string>
+    <string name="please_input_limit_pwd">请输入数字或字母</string>
+
+    <!-- Bottom menu -->
+    <string name="bottom_home">五十音</string>
+    <string name="bottom_shop">学习</string>
+    <string name="bottom_info">课程</string>
+    <string name="bottom_mine">我的</string>
+    <string name="cannot_be_empty">输入的内容不能为空</string>
+    <string name="function_in_developing">功能正在开发中</string>
+    <string name="hint_feed_back">请输入您的宝贵意见</string>
+    <string name="hint_version">版本号:</string>
+    <string name="hint_wait">请稍等…</string>
+    <string name="btn_return">返回</string>
+    <string name="bind_success">绑定成功!</string>
+    <string name="return_view">返回查看</string>
+    <string name="netword_error">网络通讯不畅，稍后再试哦~</string>
+    <string name="load_failure">加载失败：</string>
+    <string name="chapter_list">目录</string>
+    <string name="idevice_add">添加设备</string>
+    <string name="load_more_failure">加载更多数据失败</string>
+    <string name="device_config">设备配置失败</string>
+    <string name="device_detail">设备详情</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_confirm">确认</string>
+    <string name="hint_beform_scan">请将设备连接到本地服务器上\\n点击“确认”按钮扫描设备二维码</string>
+    <string name="exit_one_more_click">再次点击返回退出程序</string>
+    <string name="hint_password_vaild">密码长度不得小于八位</string>
+    <string name="auto_login">注册成功,自动登录中...</string>
+    <string name="client_name">客户端名称</string>
+    <string name="hint_client_name">请输入客户端名称</string>
+    <string name="bind_client">绑定客户端</string>
+    <string name="vaild_client_name">请输入有效名称</string>
+    <string name="btn_check_network">网络诊断</string>
+    <string name="btn_commit">提交</string>
+    <string name="water_temp">水温</string>
+    <string name="slogan">为美而生</string>
+    <string name="hint_operator">请选择操作类型</string>
+    <string name="btn_view_data">查看数据</string>
+    <string name="btn_config">配置</string>
+    <string name="device_id">编号：</string>
+    <string name="shouye">主页</string>
+    <string name="wode">我的</string>
+    <string name="mystar">收藏</string>
+    <string name="search">搜索</string>
+
+    <color name="color_999999">#999999</color>
+    <color name="color_eeeeee">#eeeeee</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_c61a04">#c61a04</color>
+    <color name="color_cccccc">#cccccc</color>
+    <color name="color_d81e06">#d81e06</color>
+    <color name="color_b0b8b2">#b0b8b2</color>
+    <color name="colorBackground">#ffffff</color>
+    <!-- 网页加载进度条颜色变化 -->
+    <color name="progress1">#B9DEF5</color>
+    <color name="progress2">#CDE7F8</color>
+    <color name="progress3">#E7F3FC</color>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

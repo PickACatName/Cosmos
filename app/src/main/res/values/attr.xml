@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--打分星星-->
+    <declare-styleable name="RatingStarView">
+        <attr name="starMargin" format="integer|dimension" />
+        <attr name="cornerRadius" format="float|dimension" />
+        <attr name="starForegroundColor" format="color|reference" />
+        <attr name="starBackgroundColor" format="color|reference" />
+        <attr name="strokeColor" format="color|reference" />
+        <attr name="strokeWidth" format="float|dimension" />
+        <attr name="starNum" format="integer" />
+        <attr name="rating" format="float" />
+        <attr name="starThickness" format="float|fraction" />
+        <attr name="drawStrokeForEmptyStar" format="boolean" />
+        <attr name="drawStrokeForFullStar" format="boolean" />
+        <attr name="drawStrokeForHalfStar" format="boolean" />
+        <attr name="enableSelectRating" format="boolean" />
+        <attr name="onlyHalfStar" format="boolean" />
+    </declare-styleable>
+    <!--学习进度-->
+    <declare-styleable name="CircularFillableLoaders">
+        <attr name="cfl_progress" format="integer"/>
+        <attr name="cfl_border" format="boolean"/>
+        <attr name="cfl_border_width" format="dimension"/>
+        <attr name="cfl_wave_color" format="color"/>
+        <attr name="cfl_wave_amplitude" format="float"/>
+    </declare-styleable>
+    <!-- 横滑卡片 -->
+    <declare-styleable name="pile">
+        <attr name="interval" format="dimension" />
+        <attr name="sizeRatio" format="float" />
+        <attr name="scaleStep" format="float" />
+        <attr name="displayCount" format="float" />
+    </declare-styleable>
+    <declare-styleable name="scene">
+        <attr name="leftMargin" format="dimension" />
+        <attr name="leftDistance" format="dimension" />
+        <attr name="rightDistance" format="dimension" />
+        <attr name="verticalDistance" format="dimension" />
+        <attr name="textSize" format="float" />
+        <attr name="textColor" format="color" />
+    </declare-styleable>
+    <!-- 侧滑返回Layout-->
+    <declare-styleable name="SwipeBackLayout">
+        <attr name="edge_size" format="dimension" />
+        <attr name="edge_flag">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="bottom" value="2" />
+            <enum name="all" value="3" />
+        </attr>
+        <attr name="shadow_left" format="reference" />
+        <attr name="shadow_right" format="reference" />
+        <attr name="shadow_bottom" format="reference" />
+    </declare-styleable>
+
+    <attr name="SwipeBackLayoutStyle" format="reference" />
+
+    <!-- 圆形头像控件-->
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color2" format="color" />
+    </declare-styleable>
+
+    <!--进度条-->
+    <declare-styleable name="CircleProgressView">
+        <attr name="matProg_progressIndeterminate" format="boolean" />
+        <attr name="matProg_barColor" format="color" />
+        <attr name="matProg_rimColor" format="color" />
+        <attr name="matProg_rimWidth" format="dimension" />
+        <attr name="matProg_spinSpeed" format="float" />
+        <attr name="matProg_barSpinCycleTime" format="integer" />
+        <attr name="matProg_circleRadius" format="dimension" />
+        <attr name="matProg_fillRadius" format="boolean" />
+        <attr name="matProg_barWidth" format="dimension" />
+        <attr name="matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+
+    <!--ViewPager小圆点-->
+    <declare-styleable name="CircleIndicator">
+        <attr name="ci_width" format="dimension" />
+        <attr name="ci_height" format="dimension" />
+        <attr name="ci_margin" format="dimension" />
+        <attr name="ci_animator" format="reference" />
+        <attr name="ci_animator_reverse" format="reference" />
+        <attr name="ci_drawable" format="reference" />
+        <attr name="ci_drawable_unselected" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="MultiSwipeRefreshLayout">
+        <attr name="foreground" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="ArrowTextView">
+        <attr name="radius" format="dimension" />
+        <attr name="arrowWidth" format="dimension" />
+        <attr name="arrowHeight" format="dimension" />
+        <attr name="bg" format="color" />
+    </declare-styleable>
+
+</resources>
