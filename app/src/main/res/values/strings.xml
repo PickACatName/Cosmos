@@ -63,19 +63,29 @@
     <string name="wode">我的</string>
     <string name="mystar">收藏</string>
     <string name="search">搜索</string>
-
-    <color name="color_999999">#999999</color>
-    <color name="color_eeeeee">#eeeeee</color>
-    <color name="color_ffffff">#ffffff</color>
-    <color name="color_c61a04">#c61a04</color>
-    <color name="color_cccccc">#cccccc</color>
-    <color name="color_d81e06">#d81e06</color>
-    <color name="color_b0b8b2">#b0b8b2</color>
-    <color name="colorBackground">#ffffff</color>
-    <!-- 网页加载进度条颜色变化 -->
-    <color name="progress1">#B9DEF5</color>
-    <color name="progress2">#CDE7F8</color>
-    <color name="progress3">#E7F3FC</color>
+    <string name="qingjiehufu">清洁护肤</string>
+    <string name="xiezhuang">卸妆</string>
+    <string name="ximiannai">洗面奶</string>
+    <string name="shuiru">水乳</string>
+    <string name="jinghua">精华</string>
+    <string name="mianshuang">面霜</string>
+    <string name="fangshai">防晒</string>
+    <string name="mianmo">面膜</string>
+    <string name="caizhuangxiangshui">彩妆香水</string>
+    <string name="xiansghui">香水</string>
+    <string name="yanxian">眼线</string>
+    <string name="jiemaogao">睫毛膏</string>
+    <string name="yanying">眼影</string>
+    <string name="fendi">粉底/散粉</string>
+    <string name="meizhuanggongju">美妆工具</string>
+    <string name="meirongyi">美容仪</string>
+    <string name="shuzi">梳子</string>
+    <string name="huazhuangshua">化妆刷</string>
+    <string name="saihong">腮红/修容</string>
+    <string name="jiajiemao">假睫毛</string>
+    <string name="meizhuangdan">美妆蛋</string>
+    <string name="fenzhuangping">分装瓶</string>
+    <string name="kouhong">口红</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

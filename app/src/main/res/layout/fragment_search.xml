@@ -4,15 +4,208 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <com.mancj.materialsearchbar.MaterialSearchBar
-        style="@style/MaterialSearchBarLight"
-        app:mt_speechMode="true"
-        app:mt_hint="Custom hint"
-        app:mt_maxSuggestionsCount="10"
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none"
+    android:layout_gravity="center_horizontal">
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/searchBar" />
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/clear"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qingjiehufu"/>
+        <LinearLayout
+            android:id="@+id/ll_clear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/xiezhuang"
+                android:drawableTop="@drawable/xiezhuang"/>
+            <Button
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ximiannai"
+                android:drawableTop="@drawable/ximiannai"/>
+
+            <Button
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shuiru"
+                android:drawableTop="@drawable/shuangfushui"/>
+
+            <Button
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jinghua"
+                android:drawableTop="@drawable/jinghua"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_below="@id/ll_clear"
+            android:id="@+id/ll_clear2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mianshuang"
+                android:drawableTop="@drawable/mianshuang"/>
+            <Button
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fangshai"
+                android:drawableTop="@drawable/fangshai"/>
+
+            <Button
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mianmo"
+                android:drawableTop="@drawable/mianmo"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/perfume"
+            android:text="@string/caizhuangxiangshui"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_below="@id/perfume"
+            android:id="@+id/ll_perfume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/xiansghui"
+                android:drawableTop="@drawable/xiangshui"/>
+            <Button
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yanxian"
+                android:drawableTop="@drawable/yanxianbi"/>
+
+            <Button
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kouhong"
+                android:drawableTop="@drawable/kouhong"/>
+
+            <Button
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yanying"
+                android:drawableTop="@drawable/yanying"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_below="@id/ll_perfume"
+            android:id="@+id/ll_perfume2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jiemaogao"
+                android:drawableTop="@drawable/jiemaogao"/>
+
+            <Button
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fendi"
+                android:drawableTop="@drawable/fenbing"/>
+            <Button
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/saihong"
+                android:drawableTop="@drawable/fenpu"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tools"
+            android:text="美妆工具"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_below="@id/tools"
+            android:id="@+id/ll_tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/meirongyi"
+                android:drawableTop="@drawable/meirongyi"/>
+            <Button
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shuzi"
+                android:drawableTop="@drawable/shuzi"/>
+
+            <Button
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/huazhuangshua"
+                android:drawableTop="@drawable/huazhuangshua"/>
 
 
+        </LinearLayout>
+        <LinearLayout
+            android:layout_below="@id/ll_tools"
+            android:id="@+id/ll_tools2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jiajiemao"
+                android:drawableTop="@drawable/jiajiemao"/>
+            <Button
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/meizhuangdan"
+                android:drawableTop="@drawable/meizhuangdan"/>
 
+            <Button
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fenzhuangping"
+                android:drawableTop="@drawable/fenzhuangping"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
 </RelativeLayout>

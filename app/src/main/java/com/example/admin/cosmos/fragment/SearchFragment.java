@@ -18,7 +18,6 @@ import com.example.admin.cosmos.R;
 import java.util.ArrayList;
 import java.util.List;
 
-import  km.lmy.searchview.SearchView;
 
 
 /*****
@@ -26,52 +25,11 @@ import  km.lmy.searchview.SearchView;
  * 1057809324@qq.com
  *****/
 public class SearchFragment extends Fragment {
-    private List<String> lastSearches;
-    private SearchView searchView;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_search, container, false);
-
-    }
-
-    @Override
-    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
-        searchView =view.findViewById(R.id.searchView);
-        List<String> historyList = new ArrayList<>();
-        searchView.setNewHistoryList(historyList);
-        //设置软键盘搜索按钮点击事件
-        searchView.setOnSearchActionListener(new SearchView.OnSearchActionListener() {
-            @Override
-            public void onSearchAction(String searchText) {
-                Toast.makeText(getActivity(), "搜索-->" + searchText, Toast.LENGTH_SHORT).show();
-                searchView.addOneHistory(searchText);
-            }
-        });
-        //设置输入文本监听事件
-        searchView.setOnInputTextChangeListener(new SearchView.OnInputTextChangeListener() {
-            @Override
-            public void onTextChanged(CharSequence charSequence) {
-                //TODO something
-            }
-
-            @Override
-            public void beforeTextChanged(CharSequence charSequence) {
-                //TODO something
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
-                //TODO something
-            }
-        });
-        searchView.setOnSearchBackIconClickListener(new SearchView.OnSearchBackIconClickListener() {
-            @Override
-            public void onClick(View view) {
-//                searchView.setSearchEditTextEnabled(false);
-            }
-        });
 
     }
 

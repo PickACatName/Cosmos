@@ -20,7 +20,11 @@ android {
         exclude 'META-INF/services/javax.annotation.processing.Processor'
     }
 }
-
+configurations.all {
+    resolutionStrategy {
+        force 'com.android.support:support-v4:27.1.0'
+    }
+}
 dependencies {
     //搜索框
     implementation 'com.carson_ho:SearchLayout:1.0.1'
@@ -64,5 +68,5 @@ dependencies {
     //design
     implementation 'com.android.support:design:27.1.1'
     //搜索框
-    implementation 'com.github.mancj:MaterialSearchBar:0.8.2'
+
 }
