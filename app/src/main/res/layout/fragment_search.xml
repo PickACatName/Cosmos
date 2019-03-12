@@ -3,80 +3,119 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 <ScrollView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:scrollbars="none"
     android:layout_gravity="center_horizontal">
     <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:background="@color/bottom_tab_bar_color">
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:iconifiedByDefault="false"
+            android:queryHint="请输入关键字">
 
+        </SearchView>
         <TextView
             android:id="@+id/clear"
             android:gravity="center"
+            android:textColor="@color/gary_30"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="38dp"
             android:text="@string/qingjiehufu"/>
         <LinearLayout
             android:id="@+id/ll_clear"
+            android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <Button
-                android:background="@android:color/white"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/btn_bg_round"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/xiezhuang"
+                android:textColor="@color/black_alpha_45"
                 android:drawableTop="@drawable/xiezhuang"/>
             <Button
-                android:background="@android:color/white"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/btn_bg_round"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/ximiannai"
+                android:textColor="@color/black_alpha_45"
                 android:drawableTop="@drawable/ximiannai"/>
 
             <Button
-                android:background="@android:color/white"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/btn_bg_round"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/shuiru"
-                android:drawableTop="@drawable/shuangfushui"/>
+                android:textColor="@color/black_alpha_45"
+                android:drawableTop="@drawable/shuiru"/>
 
-            <Button
-                android:background="@android:color/white"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/jinghua"
-                android:drawableTop="@drawable/jinghua"/>
         </LinearLayout>
         <LinearLayout
+            android:layout_marginTop="10dp"
             android:layout_below="@id/ll_clear"
             android:id="@+id/ll_clear2"
+            android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <Button
-                android:background="@android:color/white"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/btn_bg_round"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mianshuang"
+                android:textColor="@color/black_alpha_45"
                 android:drawableTop="@drawable/mianshuang"/>
             <Button
-                android:background="@android:color/white"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/btn_bg_round"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/fangshai"
+                android:textColor="@color/black_alpha_45"
                 android:drawableTop="@drawable/fangshai"/>
 
             <Button
-                android:background="@android:color/white"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/btn_bg_round"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jinghua"
+                android:textColor="@color/black_alpha_45"
+                android:drawableTop="@drawable/jinghua"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_below="@id/ll_clear2"
+            android:id="@+id/ll_clear3"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:background="@drawable/btn_bg_round"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mianmo"
+                android:textColor="@color/black_alpha_45"
                 android:drawableTop="@drawable/mianmo"/>
 
         </LinearLayout>
@@ -84,127 +123,176 @@
             android:id="@+id/perfume"
             android:text="@string/caizhuangxiangshui"
             android:gravity="center"
+            android:textColor="@color/gary_30"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="38dp" />
         <LinearLayout
             android:layout_below="@id/perfume"
             android:id="@+id/ll_perfume"
+            android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <Button
-                android:background="@android:color/white"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/btn_bg_round"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/xiansghui"
+                android:textColor="@color/black_alpha_45"
                 android:drawableTop="@drawable/xiangshui"/>
             <Button
-                android:background="@android:color/white"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/btn_bg_round"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/yanxian"
+                android:textColor="@color/black_alpha_45"
                 android:drawableTop="@drawable/yanxianbi"/>
 
             <Button
-                android:background="@android:color/white"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/btn_bg_round"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/kouhong"
+                android:textColor="@color/black_alpha_45"
                 android:drawableTop="@drawable/kouhong"/>
 
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/ll_perfume"
+            android:id="@+id/ll_perfume2"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
             <Button
-                android:background="@android:color/white"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/btn_bg_round"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/yanying"
+                android:textColor="@color/black_alpha_45"
                 android:drawableTop="@drawable/yanying"/>
+            <Button
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/btn_bg_round"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jiemaogao"
+                android:textColor="@color/black_alpha_45"
+                android:drawableTop="@drawable/jiemaogao"/>
+
+            <Button
+                android:layout_marginRight="15dp"
+                android:background="@drawable/btn_bg_round"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fendi"
+                android:textColor="@color/black_alpha_45"
+                android:drawableTop="@drawable/fendi"/>
+
         </LinearLayout>
         <LinearLayout
-            android:layout_below="@id/ll_perfume"
-            android:id="@+id/ll_perfume2"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/perfume"
+            android:id="@+id/ll_perfume3"
+            android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <Button
-                android:background="@android:color/white"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/jiemaogao"
-                android:drawableTop="@drawable/jiemaogao"/>
-
-            <Button
-                android:background="@android:color/white"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/fendi"
-                android:drawableTop="@drawable/fenbing"/>
-            <Button
-                android:background="@android:color/white"
+                android:background="@drawable/btn_bg_round"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/saihong"
+                android:textColor="@color/black_alpha_45"
                 android:drawableTop="@drawable/fenpu"/>
+
         </LinearLayout>
         <TextView
             android:id="@+id/tools"
             android:text="美妆工具"
             android:gravity="center"
+            android:textColor="@color/gary_30"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="38dp" />
         <LinearLayout
             android:layout_below="@id/tools"
             android:id="@+id/ll_tools"
+            android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <Button
-                android:background="@android:color/white"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/btn_bg_round"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/meirongyi"
+                android:textColor="@color/black_alpha_45"
                 android:drawableTop="@drawable/meirongyi"/>
             <Button
-                android:background="@android:color/white"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/btn_bg_round"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/shuzi"
+                android:textColor="@color/black_alpha_45"
                 android:drawableTop="@drawable/shuzi"/>
 
             <Button
-                android:background="@android:color/white"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/btn_bg_round"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/huazhuangshua"
+                android:textColor="@color/black_alpha_45"
                 android:drawableTop="@drawable/huazhuangshua"/>
 
 
         </LinearLayout>
         <LinearLayout
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="10dp"
             android:layout_below="@id/ll_tools"
             android:id="@+id/ll_tools2"
+            android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <Button
-                android:background="@android:color/white"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/btn_bg_round"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/jiajiemao"
+                android:textColor="@color/black_alpha_45"
                 android:drawableTop="@drawable/jiajiemao"/>
-            <Button
-                android:background="@android:color/white"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/meizhuangdan"
-                android:drawableTop="@drawable/meizhuangdan"/>
 
             <Button
-                android:background="@android:color/white"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/btn_bg_round"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/fenzhuangping"
+                android:textColor="@color/black_alpha_45"
                 android:drawableTop="@drawable/fenzhuangping"/>
-
+            <Button
+                android:layout_marginRight="15dp"
+                android:background="@drawable/btn_bg_round"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/meizhuangdan"
+                android:textColor="@color/black_alpha_45"
+                android:drawableTop="@drawable/meizhuangdan"/>
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

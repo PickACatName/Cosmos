@@ -68,5 +68,5 @@ dependencies {
     //design
     implementation 'com.android.support:design:27.1.1'
     //搜索框
-
+    implementation 'com.github.arimorty:floatingsearchview:2.1.1'
 }

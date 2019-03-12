@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="pink3">#EEB4B4</color>
     <color name="pink2">#FFF0F5</color>
     <color name="colorPrimary">#FFFFFF</color>
     <color name="colorPrimaryDark">#010101</color>
@@ -46,5 +47,6 @@
     <color name="progress1">#B9DEF5</color>
     <color name="progress2">#CDE7F8</color>
     <color name="progress3">#E7F3FC</color>
+    <color name="btn_color">#7A7A7A</color>
 
 </resources>
